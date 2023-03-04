@@ -1,0 +1,41 @@
+
+.sq, .score {
+	margin: 0px;
+	border: 1px solid;
+	border-color: #eeeeee #999999 #999999 #eeeeee;
+	background-color: #cccccc;
+	padding: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.sq, .shq {
+	box-sizing: border-box; /* avoids jumpiness when zoomed */
+	width: 24px;
+	max-width: 24px; /* avoids being resized if text is too long (iOS) */
+	min-width: 24px;
+	height: 24px;
+	min-height: 24px;
+	max-height: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	cursor: pointer;
+}
+
+.shq{
+	background-color: whitesmoke;
+}
+
+#board {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-spacing: 0px;
+	background-color: #666666;
+	color: #000000;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+}

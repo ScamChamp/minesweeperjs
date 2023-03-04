@@ -1,0 +1,17 @@
+.center-screen {
+
+        position: absolute;
+        top:0;
+        bottom: 130px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-size:      30px;
+        width: 250px;
+    
+        height: 250px;
+    /*    background-color: blue; */
+
+    
+  }
+
